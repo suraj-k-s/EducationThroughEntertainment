@@ -1,0 +1,44 @@
+.Level{
+    flex: 4;
+    margin: 60px;
+}
+.Qlevelbutton{
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.QlevelForm{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.Qlevels{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.Qlevels>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+.Qlevels>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.categoryList{
+    height: 400px;
+    width: 100%;
+}
